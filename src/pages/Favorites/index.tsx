@@ -2,7 +2,7 @@ import React from 'react'
 import { View, ScrollView } from 'react-native'
 
 import PageHeader from '../../components/PageHeader'
-import TeacherItem from '../../components/TeacherItem'
+import TeacherItem, { Teacher } from '../../components/TeacherItem'
 
 import styles from './styles'
 
@@ -19,12 +19,7 @@ function Favorites() {
                     paddingBottom: 16
                 }}
             >
-                <TeacherItem />
-                <TeacherItem />
-                <TeacherItem />
-                <TeacherItem />
-                <TeacherItem />
-                <TeacherItem />
+                
             </ScrollView>
         </View>
     )
